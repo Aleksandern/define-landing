@@ -13,8 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DeFine",
-  description: "DeFine monitors wallet exposure across DeFi and turns it into actionable risk signals.",
+  title: "DeFine — DeFi Risk Observability",
+  description: "Prevention - first risk observability for DeFi wallets. DeFine converts on-chain state into actionable risk signals and explainable alerts.",
+  metadataBase: new URL("https://define.is"),
+  openGraph: {
+    title: "DeFine - DeFi Risk Observability",
+    description: "Prevention-first risk observability for DeFi wallets.",
+    url: "https://define.is",
+    siteName: "DeFine",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DeFine - DeFi Risk Observability",
+    description:
+      "Prevention-first risk observability for DeFi wallets.",
+  },
 };
 
 export default function RootLayout({
