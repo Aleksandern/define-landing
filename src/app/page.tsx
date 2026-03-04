@@ -128,9 +128,23 @@ export default function Page() {
           </div>
         </section>
 
-        <footer className="mt-16 border-t border-neutral-200 pt-6 text-xs text-neutral-500 text-center">
-          © {new Date().getFullYear()} DeFine • All rights reserved.
+        <footer className="mt-16 border-t border-neutral-200 pt-6 text-xs text-neutral-500">
+          <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
+            <div className="text-center sm:text-left">
+              © {new Date().getFullYear()} DeFine • All rights reserved.
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+              <a
+                href="mailto:contact@define.is"
+                className="hover:text-neutral-700"
+              >
+                contact@define.is
+              </a>
+            </div>
+          </div>
         </footer>
+
       </div>
     </main>
   );
