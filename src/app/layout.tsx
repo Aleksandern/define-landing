@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     description:
       "Prevention-first risk observability for DeFi wallets.",
   },
+  alternates: {
+    canonical: "https://define.is",
+  },
 };
 
 export default function RootLayout({
