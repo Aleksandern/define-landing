@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       "Prevention-first risk observability for DeFi wallets.",
   },
   alternates: {
-    canonical: "https://define.is",
+    canonical: "/",
   },
 };
 
