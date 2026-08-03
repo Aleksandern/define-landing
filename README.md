@@ -10,7 +10,7 @@ The goal is to make DeFi risk understandable and actionable through deterministi
 ## Status
 
 The core system is currently developed in a private repository.<br />
-Reusable components are being released as open-source through the **DeFine Kit** project:
+Reusable components are being released as open-source through the **DeFine Kit** project:<br />
 https://github.com/Aleksandern/define-kit
 
 ## Website
