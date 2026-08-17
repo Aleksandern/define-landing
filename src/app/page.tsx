@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 import WaitlistForm from "./waitlist-form";
@@ -28,8 +29,15 @@ export default function Page() {
         {/* header */}
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <div className="grid h-9 w-9 place-items-center rounded-xl border border-neutral-200 bg-white shadow-sm">
-              <span className="text-xs font-bold">D</span>
+            <div className="grid h-9 w-9 shrink-0 place-items-center rounded-xl border border-neutral-200 bg-white shadow-sm">
+              <Image
+                src="/define-logo.svg"
+                alt="DeFine logo"
+                width={24}
+                height={19}
+                priority
+                className="h-4.5 w-auto"
+              />
             </div>
             <div>
               <div className="text-sm font-semibold">DeFine</div>
