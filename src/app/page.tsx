@@ -52,12 +52,20 @@ export default function Page() {
             </Link>
           </div>
 
-          <a
-            href="#early-access"
-            className="rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 shadow-sm hover:bg-neutral-50"
-          >
-            Join waitlist
-          </a>
+          <div className="flex items-center gap-5 sm:gap-6">
+            <a
+              href="https://app.define.is"
+              className="text-sm font-medium text-neutral-700 underline-offset-4 transition-colors hover:text-neutral-900 hover:underline"
+            >
+              Open app
+            </a>
+            <a
+              href="#early-access"
+              className="rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700 shadow-sm hover:bg-neutral-50"
+            >
+              Join waitlist
+            </a>
+          </div>
         </div>
 
         {/* HERO */}
