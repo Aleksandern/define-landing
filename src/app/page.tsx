@@ -79,9 +79,7 @@ export default function Page() {
             </h1>
 
             <p className="mt-6 mx-auto max-w-2xl text-base leading-relaxed text-neutral-600 sm:text-lg">
-              DeFine monitors wallet exposure across DeFi and turns it into a small set of
-              risk signals you can act on - providing better insight,
-              clearer decisions, and greater confidence in DeFi.
+              DeFine continuously monitors your wallet and DeFi positions for risk, explains what’s happening, and warns you when something important changes.
             </p>
 
             <p className="mt-3 text-sm text-neutral-600">
@@ -108,7 +106,7 @@ export default function Page() {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Feature
               title="Early risk warnings"
-              desc="Get notified before risk escalates across DeFi positions."
+              desc="Get notified when risk changes across your wallet and DeFi positions."
             />
             <Feature
               title="Custom alert thresholds"
