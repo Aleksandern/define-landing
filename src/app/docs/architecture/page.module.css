@@ -1,0 +1,33 @@
+.page {
+  min-height: 100vh;
+  padding: 45px 24px;
+}
+
+.document {
+  box-sizing: border-box;
+  width: min(100%, 980px);
+  margin: 0 auto;
+  padding: 45px;
+}
+
+.document blockquote {
+  color: var(--fgColor-default);
+}
+
+.document ul {
+  list-style-type: disc;
+}
+
+.document ol {
+  list-style-type: decimal;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 0;
+  }
+
+  .document {
+    padding: 15px;
+  }
+}
