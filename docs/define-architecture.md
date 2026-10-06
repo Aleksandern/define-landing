@@ -20,7 +20,7 @@ DeFine is designed around a progression from risk signals to risk state, meaning
 
 ## System Architecture
 
-![DeFine EVM Wallet Risk Observability Architecture](/define-architecture.png)
+![DeFine EVM Wallet Risk Observability Architecture](../public/define-architecture.png)
 
 ## Current Implementation
 
