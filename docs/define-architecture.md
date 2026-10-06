@@ -8,7 +8,7 @@ DeFine's broader product direction spans three wallet-risk domains:
 
 **DeFi / Position Risk · Security Risk · Exposure Risk**
 
-**DeFi / Position Risk** covers risks arising from DeFi positions and protocol state. **Security Risk** covers wallet security signals such as permissions and suspicious activity. **Exposure Risk** covers risk arising from external entities, counterparties, funds, or risk-intelligence signals, such as sanctions or other high-risk exposure.
+**DeFi / Position Risk** covers risks arising from DeFi positions and protocol state. **Security Risk** covers wallet security signals such as permissions, unusual transfers, and suspicious activity. **Exposure Risk** covers risk arising from external entities, counterparties, funds, or risk-intelligence signals, such as sanctions or other high-risk exposure.
 
 The product direction is centered on one question:
 
