@@ -78,12 +78,12 @@ export default function Page() {
               </span>
             </h1>
 
-            <p className="mt-6 mx-auto max-w-2xl text-base leading-relaxed text-neutral-600 sm:text-lg">
-              DeFine continuously monitors your wallet and DeFi positions for risk, explains what’s happening, and warns you when something important changes.
+            <p className="mt-6 mx-auto max-w-3xl text-base leading-relaxed text-neutral-600 sm:text-lg">
+              DeFine helps you understand what needs attention across your wallet. <br />Know what changed, why it matters, and what you can do next.
             </p>
 
             <p className="mt-3 text-sm text-neutral-600">
-              Security warnings, clear reasoning, and configurable alerts.
+              DeFi positions. Wallet security. Exposure risks.
             </p>
 
             <div className="mt-8">
@@ -105,30 +105,30 @@ export default function Page() {
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Feature
-              title="Early risk warnings"
-              desc="Get notified when risk changes across your wallet and DeFi positions."
+              title="Understand your wallet risks"
+              desc="DeFi risks, security threats, and risks linked to funds or counterparties."
             />
             <Feature
-              title="Custom alert thresholds"
-              desc="Set your own limits for when alerts should fire — tuned to your risk tolerance."
+              title="Know what changed"
+              desc="Track meaningful risk changes without constant manual checks."
             />
             <Feature
-              title="Explainable alerts"
-              desc="Clear reasoning behind each signal — no black-box scoring."
+              title="Understand why it matters"
+              desc="Clear explanations of risks and their potential consequences."
             />
             <Feature
-              title="State-change monitoring"
-              desc="Alerts only when something meaningful changes."
+              title="Focus on what matters first"
+              desc="Prioritized risks based on urgency and potential impact."
             />
             <Feature
-              title="Reorg-aware logic"
-              desc="Built with blockchain realities in mind."
+              title="Stay informed automatically"
+              desc="Get notified when important risk conditions change."
             />
             <Feature
-              title="Auditable risk modules"
+              title="Transparent risk detection"
               desc={
                 <>
-                  Core risk-detection modules are{" "}
+                  Built on inspectable,{" "}
                   <a
                     href={GITHUB_REPO_URL}
                     target="_blank"
@@ -136,7 +136,7 @@ export default function Page() {
                   >
                     open-source
                   </a>{" "}
-                  and auditable.
+                   risk components.
                 </>
               }
             />
