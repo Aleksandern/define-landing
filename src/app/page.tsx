@@ -109,8 +109,8 @@ export default function Page() {
               desc="DeFi risks, security threats, and risks linked to funds or counterparties."
             />
             <Feature
-              title="Know what changed"
-              desc="Track meaningful risk changes without constant manual checks."
+              title="Stay ahead of risk changes"
+              desc="Track meaningful changes and get notified when attention is needed."
             />
             <Feature
               title="Understand why it matters"
@@ -121,8 +121,8 @@ export default function Page() {
               desc="Prioritized risks based on urgency and potential impact."
             />
             <Feature
-              title="Stay informed automatically"
-              desc="Get notified when important risk conditions change."
+              title="Multiple wallets. One unified view."
+              desc="See DeFi positions and risks across selected wallets in one interface."
             />
             <Feature
               title="Transparent risk detection"
