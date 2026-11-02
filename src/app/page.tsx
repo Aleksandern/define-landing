@@ -157,7 +157,7 @@ export default function Page() {
                 Get notified when early testing opens
               </h2>
 
-              <div className="mt-5 max-w-xl mx-auto">
+              <div className="mt-2 max-w-xl mx-auto">
                 <WaitlistForm />
               </div>
             </div>
