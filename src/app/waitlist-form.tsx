@@ -94,7 +94,7 @@ export default function WaitlistForm() {
           aria-expanded={showInterests}
           aria-controls="waitlist-interests"
           onClick={() => setShowInterests((shown) => !shown)}
-          className="inline-flex items-center text-sm font-medium text-neutral-700 underline decoration-neutral-300 underline-offset-4 transition hover:text-neutral-950 hover:decoration-neutral-500"
+          className="inline-flex cursor-pointer items-center text-sm font-medium text-neutral-700 underline decoration-neutral-300 underline-offset-4 transition hover:text-neutral-950 hover:decoration-neutral-500"
         >
           Select the areas that matter most to you
           <span className="font-normal text-neutral-500">&nbsp;(optional)</span>
